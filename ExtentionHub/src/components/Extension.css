@@ -1,0 +1,44 @@
+.card {
+    background-color: hsla(212, 15%, 17%, 0.4);
+    color: #E0E3E5;
+    border: 1px solid hsl(212, 15%, 17%);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 3rem;
+    width: 22vw;
+    height: 32vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card div {
+    color: #4CF7DA;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card span {
+    background-color: hsla(170, 100%, 11%, 0.4);
+    border-radius: 4px;
+}
+
+.card-logo {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.card-title {
+    padding: 0.1rem;
+    align-self: center;
+}
+
+/* Typography */
+
+/* Buttons */
+.add-btn {
+    background-color: #4CF7DA;
+    color: #00382F;
+    padding: 0.75rem 6.37rem;
+    align-self: center;
+}

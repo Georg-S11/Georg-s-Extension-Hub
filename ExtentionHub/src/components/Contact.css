@@ -1,0 +1,21 @@
+.contact-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 200;
+}
+
+.contact-card > form {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.contact-card > form > input, button, textarea {
+    padding: 1vh 2vh;
+    border: none;
+    border-radius: 5px;
+}
